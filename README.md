@@ -66,4 +66,4 @@ npm run dev
 ```
 
 5. **Ver o projeto** <br />
-Acessar a url [http://localhost:5173](http://localhost:5173) e visualizar o projeto.
+Acesse a url [http://localhost:5173](http://localhost:5173) para visualizar o projeto.
