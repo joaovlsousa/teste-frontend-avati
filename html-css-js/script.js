@@ -34,7 +34,7 @@ addEventListener('submit', async (e) => {
   // simulando integração com o backend
 
   submitButton.disabled = true
-  submitButton.innerText = 'Enviando...'
+  submitButton.innerText = 'Entrando...'
 
   emailInput.disabled = true
   passwordInput.disabled = true
@@ -42,7 +42,7 @@ addEventListener('submit', async (e) => {
   await new Promise((resolve) => setTimeout(resolve, 2000))
 
   submitButton.disabled = false
-  submitButton.innerText = 'Enviar'
+  submitButton.innerText = 'Entrar'
 
   emailInput.value = ''
   passwordInput.value = ''
@@ -50,22 +50,12 @@ addEventListener('submit', async (e) => {
   emailInput.disabled = false
   passwordInput.disabled = false
 
-  const response = Math.floor(Math.random() * 10)
-
-  if (response % 2 == 0) {
-    message.innerText = 'Login efetuado com sucesso!'
-    message.classList.remove('error')
-    message.classList.add('success')
-  } else {
-    message.innerText = 'Erro ao efetuar o login!'
-    message.classList.remove('success')
-    message.classList.add('error')
-  }
+  message.innerText = 'Login efetuado com sucesso!'
+  message.classList.add('success')
 
   await new Promise((resolve) => setTimeout(resolve, 5000))
 
   message.classList.remove('success')
-  message.classList.remove('error')
 
   message.innerText = ''
 })

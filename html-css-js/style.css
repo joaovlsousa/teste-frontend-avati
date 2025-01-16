@@ -1,6 +1,9 @@
 :root {
-  min-height: 100vh;
-  width: 100vw;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 
   --primary-color: #fafafa;
   --secondary-color: #262426;
@@ -14,7 +17,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 .main-container {
@@ -79,11 +81,6 @@
     & .message.success {
       padding: 1rem;
       background-color: var(--success-color);
-    }
-  
-    & .message.error {
-      padding: 1rem;
-      background-color: var(--error-color);
     }
   }
 
