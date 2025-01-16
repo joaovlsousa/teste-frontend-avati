@@ -1,6 +1,6 @@
 # Projeto para Teste Frontend - AVATI
 
-Este projeto trata-se de teste para uma vaga de estágio na AVATI e consiste em uma tela de login funcional.
+Este projeto trata-se de um teste para uma vaga de estágio na AVATI e consiste em uma tela de login funcional.
 
 O mesmo projeto foi feito de duas formas:
 
@@ -29,15 +29,15 @@ cd teste-frontend-avati
 code .
 ```
 
-4. **Baixar a extensão Live Server**
+4. **Baixar a extensão Live Server** <br />
 Entre na aba de extensões no menu lateral esquerdo, ou utilize o atalho `ctrl+shift+x` e cole este id `ritwickdey.liveserver` no campo de pesquisa e clique para instalar a extensão.
 
-5. **Rodar o projeto**
+5. **Rodar o projeto** <br />
 Após baixar a extensão Live Server, acesse o menu inferior direito e clique na opção `Go Live`. Esta opção irá subir um servidor local para você acessar o projeto. Agora é só acessar a url [http://localhost:5500/html-css-js](http://localhost:5500/html-css-js) e visualizar o projeto.
 
 ### Projeto react
 
-Este projeto em react foi criado com o entuito de mostrar que podemos deixar o mesmo: mais profissional, pois foi utilizado o `eslint` para deixar o código padronizado; menos favorável a erros, pois foi utilizado `typescript` para tipagem de variáveis e funções e a biblioteca `zod` para validações de campos; e moderno, tendo em vista que foi utilizado a versão mais atualizada do react (v19), o framework `tailwindcss` que é amplamente utilizado atualmente, dentre outros fatores que aprimoram o desenvolvimento de interfaces para a web.
+Este projeto em react foi criado com o intuito de mostrar que podemos deixar o mesmo: mais profissional, pois foi utilizado o `eslint` para deixar o código padronizado; menos favorável a erros, pois foi utilizado `typescript` para tipagem de variáveis e funções e a biblioteca `zod` para validações de campos; e moderno, tendo em vista que foi utilizado a versão mais atualizada do react (v19), o framework `tailwindcss` que é amplamente utilizado atualmente, dentre outros fatores que aprimoram o desenvolvimento de interfaces para a web.
 
 #### Recursos necessários para rodar o projeto
 
@@ -65,5 +65,5 @@ npm install
 npm run dev
 ```
 
-5. **Ver o projeto**
+5. **Ver o projeto** <br />
 Acessar a url [http://localhost:5173](http://localhost:5173) e visualizar o projeto.
